@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="#">
+
+        <select name="drink">
+            <!-- optgroup 는 종목별로 구별이 가능하게 함--> 
+            <optgroup label="Coffee">
+                <option value="아메">아메리카노</option>
+                <option value="바라">바닐라라떼</option>
+                <option value="카라">카페라떼</option>
+            </optgroup>
+            <optgroup label="non-Coffee">
+                <option value="레에">레몬에이드</option>
+                <option value="자에">자몽에이드</option>
+            </optgroup>
+        </select>
+
+        <br><br><br>
+
+        <hr>
+
+        <input type="text" list="fruits">
+
+        <datalist id="fruits">
+            <option>사과</option>
+            <option>오렌지</option>
+            <option>샤인머스켓</option>
+            <option>용과</option>
+            <option>망고</option>
+        </datalist>
+
+
+        <input type="submit" value="주문">
+    </form>
+
+
+    
+</body>
+</html>
