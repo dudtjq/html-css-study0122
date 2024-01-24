@@ -44,3 +44,13 @@ header{
     width: 100px;
     height: 600px;
 }
+
+footer{
+    width: 1000px;
+    height: 100px;
+}
+
+.email-call{
+    width: 200px;
+    height: 100px;
+}
