@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
     <style>
 
         #wrap{
@@ -14,16 +16,18 @@
             margin: auto;
             text-align: center;
             padding: 20px;
+            margin-top: 50px;
+            
             
         }
 
         .text1{
             color: aliceblue;
             font-weight: bold;
-            font-size: 25px;
+            font-size: 23px;
             margin-top: 20px;
-            margin-bottom: 20px;
             font-style:oblique;
+            text-shadow: 5px 5px 20px #000;
         }
 
         .text1:hover{
@@ -34,9 +38,10 @@
         .text2{
             color: aliceblue;
             font-weight: bold;
-            font-size: 25px;
-            margin-bottom: 20px;
+            font-size: 24px;
+            margin-top: 20px;
             font-style:oblique;
+            text-shadow: 5px 5px 20px #000;
         }
 
         .text2:hover{
@@ -49,11 +54,17 @@
             font-weight: bold;
             font-size: 25px;
             font-style:oblique;
+            margin-top: 20px;
+            text-shadow: 5px 5px 20px #000;
         }
 
         .text3:hover{
             background-color: skyblue;
             color: yellow;
+        }
+
+        a{
+            text-decoration-line: none;
         }
 
     </style>
@@ -62,16 +73,20 @@
 </head>
 <body>
     
+  
+
     <div id="wrap">
-        
-        <div class="text1">[주문] 긴급재난지원금을 쿠X에서 사용할 수 있나요?</div>
-        <div class="text2">다슬기를 키우고 싶은데 어떤 횐경이 필요한가요?</div>
-        <div class="text3">달팽이가 집을 나갔습니다. 어떻게 하죠?</div>
+
+        <nav>
+            <ul>
+                <li class="text1"><a href="#" class="text1">[주문] 긴급재난지원금을 쿠x에서 사용할 수 있나요?</a></li><br>
+                <li class="text2"><a href="#" class="text2">다슬기를 키우고 싶은데 어떤 환경이 필요한가요?</a></li> <br>
+                <li class="text3"><a href="#" class="text3">달팽이가 집을 나갔습니다. 어떻게 하죠?</a></li>
+            </ul>
+        </nav>
 
     </div>
-
-
-
+    
 
 
 </body>
