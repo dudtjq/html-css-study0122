@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/
+    icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+        
+        #wrap{
+            width: 1200px;
+            height: 1000px;
+            
+            margin: auto;
+        }
+
+        header{
+            width: 1200px;
+            height: 100px;
+            
+            float: left;
+        }
+
+        .fa-solid{
+            color: black;
+        }
+
+    
+        .logo{
+            width: 200px;
+            height: 100px;
+            float: left;
+            text-align: center;
+            
+        }
+
+        .youtube-logo{
+            margin-top: 25px;
+            
+        }
+
+        .logo-name{
+            color: black;
+            font-weight: bold;
+            font-size: 24px;
+            text-decoration: none;
+            
+        }
+        
+        .input{
+            width: 800px;
+            height: 100px;
+            
+            float: left;
+        }
+
+        .search{
+            width: 600px;
+            height: 30px;
+            margin-top: 30px;
+            border-radius: 40px;
+            border: 1px solid lightgrey;
+            margin-left: 10px;
+            
+        }
+
+        .material-symbols-outlined{
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+
+        .material-symbols-outlined:hover{
+            background-color: white;
+            font-weight: bold;
+        }
+
+    input[type=button]{
+      border:none;
+      background-color: white;
+      margin-left: -60px;
+      margin-top: 30px;
+      
+    }
+
+        .login{
+            width: 100px;
+            height: 50px;
+            
+            float: left;
+        }
+
+        .login-btn{
+            width: 150px;
+            height: 50px;
+            background-color: white;
+            border: 2px solid lightgray;
+            border-radius: 30px;
+            color: blue;
+            font-size: 20px;
+            margin-top: 21px;
+        }
+
+        .login-btn:hover{
+            background-color: lightgray;
+        }
+    
+
+
+        article{
+            width: 1200px;
+            height: 700px;
+            background-color: blue;
+        }
+
+        .menu{
+            width: 200px;
+            height: 600px;
+            background-color: white;
+            float: left;
+            overflow: hidden;
+        }
+
+        .menu:hover{
+            overflow: auto;
+        }
+           
+        .text1{
+            font-size: 22px;
+            width: 180px;
+            height: 30px;
+            text-align: start;
+            padding: 10px;
+            border: 0px;
+            font-family: '굴림체', sans-serif;
+            font-weight: bold;
+           
+        }
+
+        .text2{
+            font-size: 22px;
+            text-align: start;
+            margin: 10px;
+            font-family: '굴림체', sans-serif;
+        }
+
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+
+        
+        .text1:hover{
+            background-color: lightgrey;
+            border-radius: 10px;
+        }
+
+        
+
+        
+
+        footer{
+            width: 1200px;
+            height: 80px;
+            background-color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <div id="wrap">
+        <header>
+            <label>
+                <div class="logo">
+                    <img width="20%" class="youtube-logo" src="https://1.bp.blogspot.com/-fqXGFo7dwsY/XqzoI3Qq9oI/AAAAAAAAAQw/j6S4EIQ03xwaeP4P7Eok2otUq9Q5GRxlwCEwYBhgL/s320/085C59FF-CC5B-4048-AC35-D72F597C8059.png">
+                    <a href="http://127.0.0.1:5500/%EC%97%B0%EC%8A%B5/youtube.html" class="logo-name">YouTube</a>
+                </div>
+             </label>
+            <div class="input">
+                <label>
+                    <input type="text" class="search"><input type="button"><span class="material-symbols-outlined">search</span></input>
+                </label>
+            </div>
+            <form action="https://accounts.google.com/InteractiveLogin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fkr&ec=65620&hl=ko&passive=true&service=youtube&uilel=3&ifkv=ASKXGp0xvJJWSqRQwnZjrB0gwK4FN4LD1bJQauK3vbjVrQXsWVBQ9dMRPpCTtT6LWF-140vj-at-Hw&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <div>
+                    <button type="submit" class="login-btn">로그인</button>
+                </div>
+            </form>
+        </header>
+        <article>
+            <div class="menu">
+                <div class="text1"><a href="#" type="button" class="link1">홈</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">Short</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">구독</a></div>
+                <hr>
+                <div class="text1"><a href="#" type="button" class="link1">나</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">시청기록</a></div>
+                <hr>
+                <div class="text2">탐색</div>
+                <div class="text1"><a href="#" type="button" class="link1">인기 급상승</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">쇼핑</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">음악</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">영화</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">실시간</a></div>
+                <div class="text1"><a href="#" type="button" class="link1">게임</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">스포츠</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">학습</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">팟캐스트</a></div>
+            </div>
+            
+
+        </article>
+        <footer></footer>
+    </div>
+    
+</body>
+</html>
