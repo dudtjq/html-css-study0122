@@ -1,0 +1,218 @@
+
+#wrap{
+    width: 1400px;
+    height: 1200px;
+    background-color: gray;
+    margin: auto;
+    
+}
+
+header{
+    width: 1200px;
+    height: 120px;
+    background-color: orange;
+    margin-left: 110px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: px;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 30px;   
+    
+    
+}
+
+.header1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.span1{
+    margin-bottom: 150px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    
+}
+
+.stit{
+    width: 1195px;
+    height: 20px;
+    background-color: darkgray;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.container{
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 110px;
+
+}
+
+.side-menu{
+    width: 250px;
+    height: 600px;
+    float: left;
+}
+
+.artist1{
+    width: 250px;
+    height: 20px;
+    background-color: brown;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ul1{
+    width: 250px;
+    height: 790px;
+    padding: 10px;
+    background-color: white;
+    line-height: 30px;
+   
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    
+}
+
+.main-content{
+    width: 700px;
+    height: 850px;
+    background-color:beige;
+    float: left;
+}
+
+.banner{
+    float: left;
+    width: 220px;
+    height: 820px;
+    background-color: white;
+    padding: 15px;
+    line-height: 30px;
+    
+}
+
+h3{
+    text-align: justify;
+    
+}
+
+.all{
+    text-decoration:underline;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.love{
+    text-decoration:underline;
+    font-size: 25px;
+    margin-top: 20px;
+    color: orange;
+    line-height: 20px;
+}
+
+strong{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+
+h4{
+    width: 600px;
+    height: 20px;
+    background-color:midnightblue;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+
+.art-piece{
+    padding: 5px;
+    line-height: 30px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.title{
+    margin-top: 10px;
+    width: 675px;
+    height: 20px;
+    background-color:midnightblue;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+.text{
+    text-decoration: none;
+    color: white;  
+    
+}
+
+.text2{
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+.text3{
+    text-align: justify;
+    font-size: 13px;
+    
+}
+
+.link{
+    margin-top: 50px;
+}
+
+.artist{
+   
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+address{
+    margin-top: 250px;
+    margin-left: 110px;
+    width: 1180px;
+    height: 20px;
+    background-color:midnightblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.address{
+    color: white;
+   
+}
