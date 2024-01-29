@@ -11,17 +11,19 @@
     <style>
         
         #wrap{
-            width: 1200px;
-            height: 1000px;
-            
+            width: 2000px;
+            height: 2000px;
+           
             margin: auto;
         }
 
         header{
-            width: 1200px;
+            width: 2000px;
             height: 100px;
             
             float: left;
+            margin-bottom: 20px;
+            
         }
 
         .fa-solid{
@@ -53,12 +55,12 @@
         .input{
             width: 800px;
             height: 100px;
-            
+            margin-left: 300px;
             float: left;
         }
 
         .search{
-            width: 600px;
+            width: 700px;
             height: 30px;
             margin-top: 30px;
             border-radius: 40px;
@@ -78,18 +80,19 @@
             font-weight: bold;
         }
 
-    input[type=button]{
-      border:none;
-      background-color: white;
-      margin-left: -60px;
-      margin-top: 30px;
-      
-    }
+        input[type=button]{
+
+            border:none;
+            background-color: white;
+            margin-left: -60px;
+            margin-top: 30px;
+            
+        }
 
         .login{
             width: 100px;
             height: 50px;
-            
+           
             float: left;
         }
 
@@ -102,6 +105,7 @@
             color: blue;
             font-size: 20px;
             margin-top: 21px;
+            margin-left: 200px;
         }
 
         .login-btn:hover{
@@ -110,15 +114,15 @@
     
 
 
-        article{
-            width: 1200px;
-            height: 700px;
-            background-color: blue;
+        section{
+            width: 2000px;
+            height: 2000px;
+            
         }
 
         .menu{
             width: 200px;
-            height: 600px;
+            height: 1000px;
             background-color: white;
             float: left;
             overflow: hidden;
@@ -128,15 +132,17 @@
             overflow: auto;
         }
            
+       
+
         .text1{
-            font-size: 22px;
+            font-size: 20px;
             width: 180px;
             height: 30px;
             text-align: start;
             padding: 10px;
             border: 0px;
-            font-family: '굴림체', sans-serif;
-            font-weight: bold;
+            font-family: sans-serif;
+            
            
         }
 
@@ -158,14 +164,108 @@
             border-radius: 10px;
         }
 
-        
+        .text3{
+            text-decoration: none;
+            color: gray;
+        }
 
-        
+        .text4{
+            margin-top: 5px;
+        }
 
-        footer{
-            width: 1200px;
-            height: 80px;
-            background-color: aqua;
+        .text5{
+            text-align:start;
+            color: gray;
+           
+        }
+
+        .text6{
+            text-decoration: none;
+        }
+
+        section .main-content{
+            width: 1800px;
+            height: 2000px;
+            background-color: white;
+            float: left;
+           
+        }
+        
+        .content-btn{ 
+            width: 100px;
+            height: 40px;
+            background-color: lightgray;
+            border-radius: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            margin-left: 30px;
+            
+        }
+        
+        .content-btn:hover{
+            background-color: gray;
+        }
+
+        .video-content{
+            width: 2000px;
+            height: 330px;
+            float: left;
+            display: block;
+            margin-left: 20px;
+        }
+
+  
+        video{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin-top: 50px;
+           
+            
+        }
+
+        .video-content2{
+            float: left;
+            width: 2000px;
+            height: 350px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .video1{
+            float: left;
+        }
+
+        iframe{
+            width: 400px;
+            height: 200px;
+            margin-top: 30px;
+            margin-left: 30px;
+            display: block;
+            
+         
+        }
+
+        .img{
+            border-radius: 40px;
+            width: 50px;
+            display: block;
+            margin-top: 10px;
+            margin-left: 20px;
+            float: left;
+            margin-right: 20px;
+            border: 1px solid black; 
+        }
+
+        .main-title{
+            display: block;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: black;
         }
 
     </style>
@@ -194,16 +294,23 @@
                 </div>
             </form>
         </header>
-        <article>
+        <section>
             <div class="menu">
+                <br>
+                <br>
                 <div class="text1"><a href="#" type="button" class="link1">홈</a></div>
                 <div class="text1"><a href="#" type="button" class="link1">Short</a></div>
                 <div class="text1"><a href="#" type="button" class="link1">구독</a></div>
+                <br>
                 <hr>
+                <br>
                 <div class="text1"><a href="#" type="button" class="link1">나</a></div>
                 <div class="text1"><a href="#" type="button" class="link1">시청기록</a></div>
+                <br>
                 <hr>
+                <br>
                 <div class="text2">탐색</div>
+                <br>
                 <div class="text1"><a href="#" type="button" class="link1">인기 급상승</a></div>
                 <div class="text1"><a href="#" type="button" class="link1">쇼핑</a></div>
                 <div class="text1"><a href="#" type="button" class="link1">음악</a></div>
@@ -213,11 +320,252 @@
                 <div class="text1"><a href="#" type="button" class="link1 hide">스포츠</a></div>
                 <div class="text1"><a href="#" type="button" class="link1 hide">학습</a></div>
                 <div class="text1"><a href="#" type="button" class="link1 hide">팟캐스트</a></div>
+                <br>
+                <hr>
+                <br>
+                <div class="text1"><a href="#" type="button" class="link1 hide">채널&nbsp탐색</a></div>
+                <br>
+                <hr>
+                <br>
+                <div class="text1"><a href="#" type="button" class="link1 hide">YouTube&nbsp더보기</a></div>
+                <br>
+                <div class="text1"><a href="#" type="button" class="link1 hide">YouTube&nbspPremium</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">YouTube&nbspMusic</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">YouTube&nbspKids</a></div>
+                <hr>
+                <br>
+                <div class="text1"><a href="#" type="button" class="link1 hide">설정</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">신고&nbsp기록</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">고객센터</a></div>
+                <div class="text1"><a href="#" type="button" class="link1 hide">의견&nbsp보내기</a></div>
+                <br>
+                <hr>
+                <br>
+                <div class="text3"><a href="#" class="text3">정보&nbsp</a><a href="#" class="text3">보도자료&nbsp</a><a href="#" class="text3">저작권</a></div>
+                <div class="text4"><a href="#" class="text3">문의하기&nbsp</a><a href="#" class="text3">크리에이터&nbsp</a><a href="#" class="text3">광고</a></div>
+                <div class="text4"><a href="#" class="text3">개발자</a></div>
+                <br>
+                <div class="text3"><a href="#" class="text3">약관&nbsp</a><a href="#" class="text3">개인정보처리방침&nbsp</a></div>
+                <div class="text4"><a href="#" class="text3">정책&nbsp및&nbsp안전</a></div>
+                <div class="text4"><a href="#" class="text3">YouTube&nbsp작동의&nbsp원리</a></div>
+                <div class="text4"><a href="#" class="text3">새로운&nbsp기능&nbsp테스트하기</a></div>
+                <br>
+                <div><p class="text5">
+                    © 2024 Google LLC, Sundar Pichai, 
+                    1600 Amphitheatre Parkway, 
+                    Mountain View CA 94043, USA, 0807-882-594 (무료),
+                    yt-support-solutions-kr@google.com, 호스팅: Google LLC, 
+                    <a href="#" class="text6">사업자정보, 불법촬영물 신고<br></a>
+                        크리에이터들이 유튜브 상에 게시, 태그 또는 추천한 상품들은 판매자들의 약관에 따라 판매됩니다. 유튜브는 이러한 제품들을 판매하지 않으며, 그에 대한 책임을 지지 않습니다.
+                    </p>
+                </div>
             </div>
-            
-
-        </article>
-        <footer></footer>
+            <div class="main-content">
+                    <a type="button" href="#" class="content-btn">전체</a>
+                    <a type="button" href="#" class="content-btn">게임</a>
+                    <a type="button" href="#" class="content-btn">음악</a>
+                    <a type="button" href="#" class="content-btn">뉴스</a>
+                    <a type="button" href="#" class="content-btn">실시간</a>
+                    <a type="button" href="#" class="content-btn">액션&nbsp;어드벤처&nbsp;게임</a>
+                    <a type="button" href="#" class="content-btn">요리</a>
+                    <a type="button" href="#" class="content-btn">수학</a>
+                    <a type="button" href="#" class="content-btn">최근에&nbsp;업로드된&nbsp;동영상</a>
+                    <div class="video-content">
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="video-content2"> 
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content2"> 
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="video-content2">
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content2">
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                        <div class="video1">
+                            <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img alt="김뚜띠 프로필 사진" class="img" src="https://yt3.ggpht.com/ytc/AIf8zZSIbFkZBShVPGIaXH_WdjfeRsNYbFvJSclpBcbB5w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="main-title">아오 좀!!!!</div>
+                                <div class="">김뚜띠</div>
+                                <div>조회수 23만회 º 2개월 전</div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+            </div>
+        
+        </section>
+        
     </div>
     
 </body>
