@@ -12,18 +12,27 @@
         
         #wrap{
             width: 2000px;
-            height: 2000px;
-           
+            height: 3000px;
+            
             margin: auto;
         }
 
         header{
-            width: 2000px;
-            height: 100px;
+            width: 1800px;
+            height: 300px;
+            float: left;
+      
+            position: relative;
+            position: fixed;
+           
+        }
+
+        .btn{
+            width: 1800px;
+            height: 150px;
             
             float: left;
-            margin-bottom: 20px;
-            
+            margin-left: 250px;
         }
 
         .fa-solid{
@@ -112,6 +121,14 @@
             background-color: lightgray;
         }
     
+        .content{
+            width: 2000px;
+            height: 60px;
+            
+            margin-right: 2000px;
+        }
+            
+        
 
 
         section{
@@ -121,11 +138,16 @@
         }
 
         .menu{
+            margin-top: 100px;
             width: 200px;
-            height: 600px;
+            height: 1000px;
             background-color: white;
             float: left;
             overflow: hidden;
+            position: fixed; 
+            overflow: scroll;
+            background: no-repeat cover;
+            
         }
 
         .menu:hover{
@@ -200,11 +222,24 @@
             color: black;
             padding: 10px;
             margin-left: 30px;
-            
         }
         
         .content-btn:hover{
             background-color: gray;
+        }
+
+        .main-content{
+            width: 100%;
+            height: 100%;
+            margin-top: 150px;
+            margin-left: 200px;
+            position: absolute;
+            
+            background: no-repeat cover;
+            
+            
+            
+          
         }
 
         .video-content{
@@ -213,6 +248,8 @@
             float: left;
             display: block;
             margin-left: 20px;
+            
+           
         }
 
   
@@ -235,6 +272,7 @@
 
         .video1{
             float: left;
+            
         }
 
         iframe{
@@ -266,6 +304,29 @@
             margin-bottom: 5px;
             color: black;
         }
+        
+        @media (min-width:1024px) and (max-width:3000px){
+            #wrap{
+
+                min-width: 960px;
+
+            }
+
+            header{
+                width: 2500px;
+            }
+
+            section .menu{
+                width: 200px;
+                height: 2000px;
+            }
+
+            
+            
+            
+        }
+
+
 
     </style>
 
@@ -292,6 +353,17 @@
                     <button type="submit" class="login-btn">로그인</button>
                 </div>
             </form>
+            <div class="btn">
+            <a type="button" href="#" class="content-btn">전체</a>
+                <a type="button" href="#" class="content-btn">게임</a>
+                <a type="button" href="#" class="content-btn">음악</a>
+                <a type="button" href="#" class="content-btn">뉴스</a>
+                <a type="button" href="#" class="content-btn">실시간</a>
+                <a type="button" href="#" class="content-btn">액션&nbsp;어드벤처&nbsp;게임</a>
+                <a type="button" href="#" class="content-btn">요리</a>
+                <a type="button" href="#" class="content-btn">수학</a>
+                <a type="button" href="#" class="content-btn">최근에&nbsp;업로드된&nbsp;동영상</a>
+            </div>
         </header>
         <section>
             <div class="menu">
@@ -360,15 +432,7 @@
                 </div>
             </div>
             <div class="main-content">
-                    <a type="button" href="#" class="content-btn">전체</a>
-                    <a type="button" href="#" class="content-btn">게임</a>
-                    <a type="button" href="#" class="content-btn">음악</a>
-                    <a type="button" href="#" class="content-btn">뉴스</a>
-                    <a type="button" href="#" class="content-btn">실시간</a>
-                    <a type="button" href="#" class="content-btn">액션&nbsp;어드벤처&nbsp;게임</a>
-                    <a type="button" href="#" class="content-btn">요리</a>
-                    <a type="button" href="#" class="content-btn">수학</a>
-                    <a type="button" href="#" class="content-btn">최근에&nbsp;업로드된&nbsp;동영상</a>
+                
                     <div class="video-content">
                         <div class="video1">
                             <iframe width="" poster="https://www.youtube.com/watch?v=neX_b2aOGz8&pp=ygUJ6rmA65qc652g" height="331" src="https://www.youtube.com/embed/neX_b2aOGz8" title="아오 좀!!!!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
